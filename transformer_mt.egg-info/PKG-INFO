@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: transformer_mt
+Version: 1.0
+Requires-Dist: torch>=1.3
+Requires-Dist: datasets>=1.8.0
+Requires-Dist: tokenizers
+Requires-Dist: wandb
+Requires-Dist: transformers
+Requires-Dist: matplotlib
+Requires-Dist: sacrebleu
+Dynamic: requires-dist

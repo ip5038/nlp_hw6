@@ -1,0 +1,82 @@
+README.md: 10.5kB [00:00, 5.65MB/s]
+de-en/train-00000-of-00003.parquet: 100%|███████████████████| 280M/280M [00:07<00:00, 38.8MB/s]
+de-en/train-00001-of-00003.parquet: 100%|███████████████████| 265M/265M [00:06<00:00, 41.4MB/s]
+de-en/train-00002-of-00003.parquet: 100%|███████████████████| 273M/273M [00:06<00:00, 41.3MB/s]
+de-en/validation-00000-of-00001.parquet: 100%|███████████████| 474k/474k [00:00<00:00, 786kB/s]
+de-en/test-00000-of-00001.parquet: 100%|█████████████████████| 509k/509k [00:00<00:00, 842kB/s]
+Generating train split: 100%|████████████| 4508785/4508785 [00:01<00:00, 3807179.25 examples/s]
+Generating validation split: 100%|█████████████| 3000/3000 [00:00<00:00, 2073650.63 examples/s]
+Generating test split: 100%|███████████████████| 3003/3003 [00:00<00:00, 2424075.23 examples/s]
+Running tokenizer on dataset (num_proc=8): 100%|█████| 100/100 [00:00<00:00, 249.90 examples/s]
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Sample 52 of the training set: {'input_ids': [3211, 68, 4227, 3203, 5984, 7163, 11, 27743, 9978, 3780, 5520, 16285, 15, 3219, 3338, 3453, 11098, 3217, 8289, 4022, 23438, 6887, 17], 'token_type_ids': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'decoder_input_ids': [2, 2961, 2925, 3645, 2988, 3705, 7402, 11, 3233, 3078, 3638, 3764, 2957, 3002, 3658, 20727, 2919, 10502, 2965, 54, 3071, 6707, 16, 31867, 17962, 4731, 18378, 17], 'labels': [2961, 2925, 3645, 2988, 3705, 7402, 11, 3233, 3078, 3638, 3764, 2957, 3002, 3658, 20727, 2919, 10502, 2965, 54, 3071, 6707, 16, 31867, 17962, 4731, 18378, 17, 3]}.
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Decoded input_ids: is a company in Ser ón ( Almer ía ). Since 1975 , it has been devoted to producing quality cured ham .
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Decoded labels: ist ein Unternehmen aus Ser ón ( Al mer ia ), das sich seit 1975 der Verarbeitung von S err ano - Schinken bester Qualität widmet . [EOS]
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py -
+
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Sample 47 of the training set: {'input_ids': [3271, 15244, 3338, 68, 14536, 4827, 3204, 9489, 12812, 17], 'token_type_ids': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'decoder_input_ids': [2, 2999, 6312, 3077, 2963, 9267, 3995, 9045, 2982, 11039, 3814, 15199, 5147, 17], 'labels': [2999, 6312, 3077, 2963, 9267, 3995, 9045, 2982, 11039, 3814, 15199, 5147, 17, 3]}.
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Decoded input_ids: The republic has a coastline along the Atlantic Ocean .
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Decoded labels: Die Republik hat eine Küsten linie entlang des Atlan tischen Oze ans . [EOS]
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py -
+
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - ***** Running training *****
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py -   Num examples = 100
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py -   Num Epochs = 1
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py -   Total optimization steps = 13
+  0%|                                                                   | 0/13 [00:00<?, ?it/s]03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Look at the data that we input into the model, check that it looks like what we expect.
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Decoded input_ids: The legislative level has been disregarded entirely , although the evaluation of S AVE I showed that 80 % of the successes of that programme were achieved by means of legislative measures . [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Decoded labels: Die legislative Ebene wurde völlig außer acht gelassen , obwohl die Evaluierung von S AVE I ergeben hat , daß die Erfolge dieses Programms zu 80 % auf das legislative Element zurückzuführen sind . [EOS] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py -
+
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Decoded input_ids: Public parking is possible on site ( reservation is needed ) and costs HK D 1000 . 00 per day . [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Decoded labels: Öffentliche Parkplätze stehen für H K D 1000 , 00 pro Tag am Hotel ( Reservierung ist erforderlich ) zur Verfügung . [EOS] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+03/29/2026 18:14:49 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py -
+
+Evaluation:  38%|██████████████████                             | 5/13 [01:50<02:56, 22.09s/it]
+Traceback (most recent call last):█                             | 5/13 [01:31<02:27, 18.48s/it]
+  File "/Users/ishanpatel/repos/HW6/cli/train.py", line 569, in <module>
+    main()
+  File "/Users/ishanpatel/repos/HW6/cli/train.py", line 523, in main
+    eval_results, last_input_ids, last_decoded_preds, last_decoded_labels = evaluate_model(
+  File "/Users/ishanpatel/repos/HW6/cli/train.py", line 257, in evaluate_model
+    generated_tokens = model.generate(
+  File "/opt/anaconda3/envs/nlp_class/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/Users/ishanpatel/repos/HW6/transformer_mt/modeling_transformer.py", line 385, in generate
+    generated = self._generate_beam_search(
+  File "/opt/anaconda3/envs/nlp_class/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/Users/ishanpatel/repos/HW6/transformer_mt/modeling_transformer.py", line 490, in _generate_beam_search
+    logits = self._decode(expanded_encoder_hidden_states, hypotheses_tensor, key_padding_mask)
+  File "/Users/ishanpatel/repos/HW6/transformer_mt/modeling_transformer.py", line 321, in _decode
+    x = layer(
+  File "/opt/anaconda3/envs/nlp_class/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/opt/anaconda3/envs/nlp_class/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ishanpatel/repos/HW6/transformer_mt/modeling_transformer.py", line 140, in forward
+    x = self.att_layer_norm(x + residual)                              # [batch_size, tgt_len, hidden]
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/ishanpatel/repos/HW6/cli/train.py", line 569, in <module>
+    main()
+  File "/Users/ishanpatel/repos/HW6/cli/train.py", line 523, in main
+    eval_results, last_input_ids, last_decoded_preds, last_decoded_labels = evaluate_model(
+  File "/Users/ishanpatel/repos/HW6/cli/train.py", line 257, in evaluate_model
+    generated_tokens = model.generate(
+  File "/opt/anaconda3/envs/nlp_class/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/Users/ishanpatel/repos/HW6/transformer_mt/modeling_transformer.py", line 385, in generate
+    generated = self._generate_beam_search(
+  File "/opt/anaconda3/envs/nlp_class/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/Users/ishanpatel/repos/HW6/transformer_mt/modeling_transformer.py", line 490, in _generate_beam_search
+    logits = self._decode(expanded_encoder_hidden_states, hypotheses_tensor, key_padding_mask)
+  File "/Users/ishanpatel/repos/HW6/transformer_mt/modeling_transformer.py", line 321, in _decode
+    x = layer(
+  File "/opt/anaconda3/envs/nlp_class/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/opt/anaconda3/envs/nlp_class/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/ishanpatel/repos/HW6/transformer_mt/modeling_transformer.py", line 140, in forward
+    x = self.att_layer_norm(x + residual)                              # [batch_size, tgt_len, hidden]
+KeyboardInterrupt

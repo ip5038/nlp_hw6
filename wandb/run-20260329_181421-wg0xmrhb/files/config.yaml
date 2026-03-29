@@ -1,0 +1,118 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            jgnhialgbj2h88jstkio265f37548wux:
+                apple: {}
+                args:
+                    - --dataset_name
+                    - wmt14
+                    - --dataset_config
+                    - de-en
+                    - --source_lang
+                    - en
+                    - --target_lang
+                    - de
+                    - --output_dir
+                    - en_de_output_dir
+                    - --batch_size
+                    - "8"
+                    - --num_warmup_steps
+                    - "100"
+                    - --learning_rate
+                    - "3e-4"
+                    - --num_train_epochs
+                    - "1"
+                    - --device
+                    - cpu
+                    - --debug
+                codePath: cli/train.py
+                codePathLocal: cli/train.py
+                cpu_count: 11
+                cpu_count_logical: 11
+                disk:
+                    /:
+                        total: "994662584320"
+                        used: "445606445056"
+                email: ip5038@gmail.com
+                executable: /opt/anaconda3/envs/nlp_class/bin/python
+                host: MacBook-Pro-175.local
+                memory:
+                    total: "38654705664"
+                os: macOS-26.3.1-arm64-arm-64bit
+                program: /Users/ishanpatel/repos/HW6/cli/train.py
+                python: CPython 3.9.25
+                root: /Users/ishanpatel/repos/HW6
+                startedAt: "2026-03-29T22:14:21.075644Z"
+                writerId: jgnhialgbj2h88jstkio265f37548wux
+        m: []
+        python_version: 3.9.25
+        t:
+            "1":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 100
+            "2":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 100
+            "3":
+                - 16
+                - 61
+            "4": 3.9.25
+            "5": 0.25.1
+            "6": 4.57.6
+            "12": 0.25.1
+            "13": darwin-arm64
+batch_size:
+    value: 8
+beam_size:
+    value: 5
+dataset_config_name:
+    value: de-en
+dataset_name:
+    value: wmt14
+debug:
+    value: true
+device:
+    value: cpu
+dropout_rate:
+    value: 0.1
+eval_every_steps:
+    value: 5000
+fcn_hidden:
+    value: 2048
+generation_type:
+    value: beam_search
+hidden_size:
+    value: 512
+learning_rate:
+    value: 0.0003
+logging_steps:
+    value: 10
+lr_scheduler_type:
+    value: LINEAR
+max_seq_length:
+    value: 128
+num_heads:
+    value: 8
+num_layers:
+    value: 6
+num_train_epochs:
+    value: 1
+num_warmup_steps:
+    value: 100
+output_dir:
+    value: en_de_output_dir
+seed:
+    value: null
+source_lang:
+    value: en
+target_lang:
+    value: de
+weight_decay:
+    value: 0

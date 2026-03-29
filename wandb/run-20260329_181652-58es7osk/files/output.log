@@ -1,0 +1,50 @@
+Running tokenizer on dataset (num_proc=8): 100%|█| 4508785/4508785 [01:18<00:00, 57119.97 examp
+Running tokenizer on dataset (num_proc=8): 100%|██| 3000/3000 [00:00<00:00, 7497.85 examples/s]
+Running tokenizer on dataset (num_proc=8): 100%|██| 3003/3003 [00:00<00:00, 7751.70 examples/s]
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Sample 876883 of the training set: {'input_ids': [3518, 16, 3203, 16, 5488, 3216, 3204, 3661, 17, 16, 11, 5110, 12, 3430, 3518, 15, 4087, 15, 4816, 3218, 4649, 15, 4162, 3344, 4683, 3567, 6076, 5797, 3217, 3320, 15, 3430, 20092, 15, 3234, 3204, 3730, 5265, 3216, 3399, 6068, 3224, 4436, 17], 'token_type_ids': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'decoder_input_ids': [2, 15370, 6244, 17, 3167, 3309, 15, 3167, 3885, 15, 7271, 5346, 2927, 4163, 4], 'labels': [15370, 6244, 17, 3167, 3309, 15, 3167, 3885, 15, 7271, 5346, 2927, 4163, 4, 3]}.
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Decoded input_ids: President - in - Office of the Council . - ( DE ) Mr President , Commissioner , ladies and gentlemen , let me express my warm thanks to you , Mr Langen , for the two parts of your contribution as rapporteur .
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Decoded labels: amtierender Ratspräsident . Herr Präsident , Herr Kommissar , liebe Kolleginnen und Kollegen ! [EOS]
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py -
+
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Sample 2331169 of the training set: {'input_ids': [3345, 13678, 5546, 11263, 3212, 18883, 6762, 3468, 3235, 5311, 3217, 12883, 35, 90, 71, 70, 17, 3268, 17], 'token_type_ids': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'decoder_input_ids': [2, 9140, 5632, 11, 3009, 12, 12125, 29140, 10463, 6531, 3011, 4657, 2920, 3161, 2998, 2936, 3843, 35, 90, 71, 70, 17, 3854, 17], 'labels': [9140, 5632, 11, 3009, 12, 12125, 29140, 10463, 6531, 3011, 4657, 2920, 3161, 2998, 2936, 3843, 35, 90, 71, 70, 17, 3854, 17, 3]}.
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Decoded input_ids: In quiries regarding authorized or unauthorized sources should be sent to trademarks @ w d c . com .
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Decoded labels: Anfragen bezüglich ( nicht ) autor isierter Quellen senden Sie bitte an tra dem ar ks @ w d c . com . [EOS]
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py -
+
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - ***** Running training *****
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py -   Num examples = 4508785
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py -   Num Epochs = 1
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py -   Total optimization steps = 140900
+  0%|                                                               | 0/140900 [00:00<?, ?it/s]03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Look at the data that we input into the model, check that it looks like what we expect.
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Decoded input_ids: Free parking spaces are available for the duration of your stay at the hotel ; if you wish to park here whilst off on your travels , a parking fee of EUR 3 per day is charged . [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Decoded labels: In den Abend stunden steht eine große Auswahl an Speisen und Snacks zur Verfügung und Getränke werden 24 Stunden am Tag serviert . [EOS] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py -
+
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Decoded input_ids: Typical technical features of V Ö GEL E road paving equipment are electric heating of the scre eds , user - friendly operation and excellent service - friendliness . [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py - Decoded labels: Zu den typischen technischen Merkm alen gehören Einbau b ohlen mit Elektro heizung , eine benutzer freundliche Bedienung und die außerordentliche Service freundlichkeit . [EOS] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+03/29/2026 18:18:14 - INFO - /Users/ishanpatel/repos/HW6/cli/train.py -
+
+  0%|                                                  | 192/140900 [01:47<23:54:06,  1.64it/s]Traceback (most recent call last):
+  File "/Users/ishanpatel/repos/HW6/cli/train.py", line 569, in <module>
+    main()
+  File "/Users/ishanpatel/repos/HW6/cli/train.py", line 489, in main
+    loss.backward()
+  File "/opt/anaconda3/envs/nlp_class/lib/python3.9/site-packages/torch/_tensor.py", line 647, in backward
+    torch.autograd.backward(
+  File "/opt/anaconda3/envs/nlp_class/lib/python3.9/site-packages/torch/autograd/__init__.py", line 354, in backward
+    _engine_run_backward(
+  File "/opt/anaconda3/envs/nlp_class/lib/python3.9/site-packages/torch/autograd/graph.py", line 829, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/ishanpatel/repos/HW6/cli/train.py", line 569, in <module>
+    main()
+  File "/Users/ishanpatel/repos/HW6/cli/train.py", line 489, in main
+    loss.backward()
+  File "/opt/anaconda3/envs/nlp_class/lib/python3.9/site-packages/torch/_tensor.py", line 647, in backward
+    torch.autograd.backward(
+  File "/opt/anaconda3/envs/nlp_class/lib/python3.9/site-packages/torch/autograd/__init__.py", line 354, in backward
+    _engine_run_backward(
+  File "/opt/anaconda3/envs/nlp_class/lib/python3.9/site-packages/torch/autograd/graph.py", line 829, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
